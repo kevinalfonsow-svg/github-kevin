@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #fafafa;
+    color: #000;
+}
+
+/* NAVBAR */
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #000;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    transition: 0.3s;
+}
+nav ul li a:hover {
+    color: #cccccc;
+}
+
+/* PROMO SECTION */
+.promo-box {
+    padding: 120px 40px 60px;
+    text-align: center;
+}
+
+.promo-box h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.promo-box p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #444;
+}
+
+/* LIST PROMO */
+.promo-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.promo-card {
+    background: white;
+    width: 260px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.promo-card:hover {
+    transform: scale(1.05);
+}
+
+.promo-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.promo-card h3 {
+    margin: 10px 0;
+}
+
+.old {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.new {
+    color: #d10000;
+    font-weight: bold;
+}
+
+/* BACK HOME BTN */
+.btn-home {
+    display: inline-block;
+    margin-top: 40px;
+    background: #000;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn-home:hover {
+    background: #333;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 15px;
+    background: #000;
+    color: white;
+}
